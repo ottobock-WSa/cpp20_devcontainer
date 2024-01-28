@@ -1,6 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "postCreateCommand": "bash /.devcontainer/update_compiler.sh",
+  "postCreateCommand": "./.devcontainer/update_compiler.sh",
   "customizations": {
     "vscode": {
       "extensions": [
