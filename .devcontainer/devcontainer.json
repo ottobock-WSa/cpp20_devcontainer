@@ -1,6 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "postCreateCommand": "./.devcontainer/update_compiler.sh",
+  "postCreateCommand": "bash /.devcontainer/update_compiler.sh",
   "features": {
   }
   
