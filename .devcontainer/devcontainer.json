@@ -2,10 +2,10 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "postCreateCommand": "bash /.devcontainer/update_compiler.sh",
   "customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-vscode.cpptools"
-			]
-		}
-	}
+    "vscode": {
+      "extensions": [
+	"ms-vscode.cpptools"
+      ]
+    }
+  }
 }
