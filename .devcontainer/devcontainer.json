@@ -6,7 +6,10 @@
     "vscode": {
       "extensions": [
 	"ms-vscode.cpptools"
-      ]
+      ],
+      "settings": {
+        "workbench.colorTheme": "vscode.theme-defaults"
+      }
     }
   }
 }
