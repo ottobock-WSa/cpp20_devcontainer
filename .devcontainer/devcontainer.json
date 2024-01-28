@@ -1,7 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "bash .devcontainer/update_compiler.sh",
+  "updateContentCommand": "sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y && sudo apt install -y g++-11 && sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 1 && sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 1",
   "customizations": {
     "vscode": {
       "extensions": [
