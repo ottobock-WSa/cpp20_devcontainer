@@ -9,7 +9,7 @@
                 "-fmodules-ts",
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/*.cpp",
+                "${fileDirname}/*.cpp",
                 "-o",
                 "${workspaceFolder}/build/${fileBasenameNoExtension}",
                 "-I ${fileDirname}/"
