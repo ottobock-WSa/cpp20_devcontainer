@@ -5,7 +5,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-	"ms-vscode.cpptools",
+	"ms-vscode.cpptools@1.18.5",
 	"ms-vscode.cpptools-extension-pack"
       ]
     }
